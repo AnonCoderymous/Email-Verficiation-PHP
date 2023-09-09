@@ -9,6 +9,25 @@ Hi folks, In this project I've created a email verification system. It takes ema
   * MySQL
   * Sendmail (Comes with XAMPP Control Panel)
 
+# How to configure xampp to send email (Windows)
+In order to send mails from localhost, I've seen many users are finding it difficult to work, so here is a quick guide on how to send email from your localhost step-by-step.
+ # Setup Gmail
+   1. Login to your gmail account in a browser from which you want to send emails.
+   2. Go to **www.google.com**, you should see yourself logged in to your gmail.
+   3. Click on your google profile logo on top-right corner of the window.
+   4. Click on **Manage your Google Account**
+   5. Now, you will see various options, go to _Security_.
+   6. Enable _2-Step Verification_ on your account.
+   7. Once you've enabled 2-Step Verification, Copy **https://myaccount.google.com/apppasswords** and paste in your browser.
+   8. It will ask you to login, login with your gmail password.
+   9. Now under **Select the app and device for which you want to generate the app password.** click on _Select app_.
+   10. Choose **Other (_Custom name_)** and enter any name of your choise, In my case it is _localhost sendmail_.
+   11. Click on **GENERATE** button, a dailogue-box will appear which will provide you the **Generated app password**.
+   12. Copy the generated password, the password should look like this **_vbre zvrw obfs jeaj_**, now copy this password and note it down somewhere as it will not be available again.
+
+ # Setup sendmail.ini and php.ini
+   After you've followed the Gmail setup steps, it's time to setup the *sendmail.ini* and *php.ini* files to send mail. Kindly check the video below for the proper and    simple guide : https://www.youtube.com/watch?v=KA2UB3pxEtg&t=55s
+     
 # File(s) & Action(s)
 config.php - The database connection file.
 index.php - The sign up page of the website.
