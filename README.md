@@ -42,5 +42,12 @@ In order to send mails from localhost, I've seen many users are finding it diffi
 3. Generate random code and send it to user's email inbox.
 4. Verify the email address.
 
+# Screenshots
+Signup page
+![alt text](https://github.com/AnonCoderymous/Email-Verficiation-PHP/blob/main/signup-page.png?raw=true)
+
+Verification page
+![alt text](https://github.com/AnonCoderymous/Email-Verficiation-PHP/blob/main/signup-page.png?raw=true)
+
 # Opinion
 This is just a basic project, but since I've learned something new from this I actually wanted to share this and help others who wants to get an idea of how things work on the ground. Thank you for reviewing my code. Have a nice day :)
