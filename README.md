@@ -18,12 +18,12 @@ In order to send mails from localhost, I've seen many users are finding it diffi
    4. Click on **Manage your Google Account**
    5. Now, you will see various options, go to _Security_.
    6. Enable _2-Step Verification_ on your account.
-   7. Once you've enabled 2-Step Verification, Copy **https://myaccount.google.com/apppasswords** and paste in your browser.
+   7. Once you've enabled 2-Step Verification, Go to **https://myaccount.google.com/apppasswords**.
    8. It will ask you to login, login with your gmail password.
    9. Now under **Select the app and device for which you want to generate the app password.** click on _Select app_.
    10. Choose **Other (_Custom name_)** and enter any name of your choise, In my case it is _localhost sendmail_.
    11. Click on **GENERATE** button, a dailogue-box will appear which will provide you the **Generated app password**.
-   12. Copy the generated password, the password should look like this **_vbre zvrw obfs jeaj_**, now copy this password and note it down somewhere as it will not be available again.
+   12. Copy the generated password, the password should look like this **_vbre zvrw obfs jeaj_**, now copy this password and note it down somewhere as it will not be available again and click on **DONE**.
 
  # Setup sendmail.ini and php.ini
    After you've followed the Gmail setup steps, it's time to setup the *sendmail.ini* and *php.ini* files to send mail. Kindly check the video below for the proper and    simple guide : https://www.youtube.com/watch?v=KA2UB3pxEtg&t=55s
