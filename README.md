@@ -29,12 +29,12 @@ In order to send mails from localhost, I've seen many users are finding it diffi
    After you've followed the Gmail setup steps, it's time to setup the *sendmail.ini* and *php.ini* files to send mail. Kindly check the video below for the proper and    simple guide : https://www.youtube.com/watch?v=KA2UB3pxEtg&t=55s
      
 # File(s) & Action(s)
-config.php - The database connection file.
-index.php - The sign up page of the website.
-email.php - The email verification page asks for verification code.
-signup.php - Logic to create a user, send email to the user and verif the email.
-function.php - Basic PHP function to show timestamp in user-friendly manner.
-db_emailverification.sql - Database file to import.
+1. config.php - The database connection file.
+2. index.php - The sign up page of the website.
+3. email.php - The email verification page asks for verification code.
+4. signup.php - Logic to create a user, send email to the user and verif the email.
+5. function.php - Basic PHP function to show timestamp in user-friendly manner.
+6. db_emailverification.sql - Database file to import.
 
 # Features
 1. Captures email and password.
