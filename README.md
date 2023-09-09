@@ -43,10 +43,11 @@ In order to send mails from localhost, I've seen many users are finding it diffi
 4. Verify the email address.
 
 # Screenshots
-Signup page
+SIGNUP PAGE
 ![alt text](https://github.com/AnonCoderymous/Email-Verficiation-PHP/blob/main/signup-page.png?raw=true)
 
-Verification page
+
+VERIFICATION PAGE
 ![alt text](https://github.com/AnonCoderymous/Email-Verficiation-PHP/blob/main/signup-page.png?raw=true)
 
 # Opinion
